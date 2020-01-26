@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body onload="init()">
+    <form class="container">
+      <input type="text" placeholder="Type long words here" />
+      <input type="submit" value="Reset" />
+      <div class="lists">
+        <ul>
+          <div class="throttle">
+            Throttling
+            <hr />
+            <code
+              >Will delay executing a function. It will reduce the notifications
+              of an event that fires multiple times.</code
+            >
+            <hr />
+          </div>
+        </ul>
+        <ul>
+          <div class="debounce">
+            Debouncing
+            <hr />
+            <code
+              >Will bunch a series of sequential calls to a function into a
+              single call to that function. It ensures that one notification is
+              made for an event that fires multiple times.</code
+            >
+            <hr />
+          </div>
+        </ul>
+      </div>
+    </form>
+    <script src="./index.js"></script>
+  </body>
+</html>
