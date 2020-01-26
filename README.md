@@ -5,13 +5,9 @@
 
 </div>
 
-```
-Both of them are ways to limit the amount of JavaScript you are executing based on DOM events for performance reasons.
-```
+> Both of them are ways to limit the amount of JavaScript you are executing based on DOM events for performance reasons.
 
-```
-Take a look at the implementation of both and open `index.html` to play around with the `text input` to visualize the difference between these two concepts.
-```
+> Take a look at the implementation of both and open `index.html` to play around with the `text input` to visualize the difference between these two concepts.
 
 #### Throttling:
 
